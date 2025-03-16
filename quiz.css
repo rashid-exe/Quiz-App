@@ -1,0 +1,28 @@
+#quiz-container {
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  #answers button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #answers button:hover {
+    background-color: #ddd;
+  }
+  
+  #next-btn {
+    display: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
